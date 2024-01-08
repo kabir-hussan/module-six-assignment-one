@@ -1,0 +1,134 @@
+/* common styles in the webpage*/
+body {
+    background-color: #FFF;
+    ;
+}
+
+.font-family-meriweather {
+    text-align: center;
+    font-family: Merriweather;
+    color: #FFF;
+}
+
+.font-family-inter {
+    text-align: center;
+    font-family: Inter;
+    color: #F00;
+}
+
+/* .backgroun-area{
+    width: 1320px;
+    height: 600px;
+    margin: 120px auto;
+    border-radius: 16px;
+} */
+
+/* banner section styles */
+.banner {
+    /* background-image: url('../resources/Banner\ Image.png'); */
+    /* width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.468);
+    background-blend-mode: multiply; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.468), rgba(0, 0, 0, 0.468)), url('../resources/Banner Image.png');
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    border-radius: 16px;
+}
+
+.small-heading {
+    font-size: 32px;
+    font-weight: 400;
+    padding: 150px 531px 0px 530px;
+}
+
+.large-heading {
+    font-size: 72px;
+    font-weight: 900;
+    padding: 0px 344px;
+    line-height: 95px;
+
+}
+
+/* section-one related styles */
+
+.discount-title {
+
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.discount-description {
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0;
+}
+
+.category-title {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+/* section-two related styles */
+
+.section-two {
+    background-image: url('../resources/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+    margin: 120px auto;
+    border-radius: 16px;
+}
+
+.section-two-title-and-description {
+    text-align: left;
+    padding: 100px 0px 0px 120px;
+    max-width: 600px;
+}
+
+.section-two-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    /* 137.5% */
+
+
+}
+
+.section-two-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.section-two-btn {
+    margin-left: 150px;
+    background-color: black;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+/* section-three styles */
+.section-three{
+    width: 1320px;
+    height: 600px;
+    margin: 120px auto;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.12) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+
