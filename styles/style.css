@@ -348,6 +348,11 @@ main {
     margin-left: -40px;
     list-style: none;
 }
+.hover-img:hover{
+    filter: brightness(1.5);
+    transition: 1.5;
+    background-color: #f0f0f0; 
+}
 
 /* section-seven-styles */
 
