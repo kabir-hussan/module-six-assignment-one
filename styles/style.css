@@ -1,4 +1,7 @@
 /* common styles in the webpage*/
+body {
+    margin-bottom: 120px;
+}
 
 main {
     width: 1320px;
@@ -39,7 +42,7 @@ main {
     font-size: 72px;
     font-weight: 900;
     padding: 0px 344px;
-    line-height: 95px;
+    /* line-height: 95px; */
 
 }
 
@@ -166,6 +169,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* margin-bottom: 120px; */
 }
 
 .offer-container {
@@ -191,9 +195,10 @@ main {
     font-size: 48px;
     font-weight: 900;
     text-transform: capitalize;
+    margin-bottom: 20px;
 }
 
-.section-four .offer-description {
+.offer-description {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
@@ -205,4 +210,38 @@ main {
     border: 15px solid #F00;
     padding: 40px;
 }
+
+.year-para-img-container .year-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/* section six styles */
+
+.section-six {
+    margin-top: 120px;
+}
+
+.section-six p{
+    max-width: 60%;
+}
+
+.gift-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.gift-image-container ul{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    border-radius: 16px;
+   
+}
+
 
